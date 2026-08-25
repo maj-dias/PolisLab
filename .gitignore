@@ -1,0 +1,36 @@
+# Godot
+.godot/
+*.translation
+
+# Build artifacts
+bin/*.dll
+bin/*.so
+bin/*.dylib
+bin/*.lib
+bin/*.a
+bin/*.exp
+bin/*.pdb
+bin/*.framework/
+.sconsign.dblite
+*.os
+*.obj
+*.o
+
+# Generated bindings input (dumped from the local editor binary)
+api/
+
+# Third-party bindings checkout
+godot-cpp/
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+
+# Dev screenshots from tools/screenshot.gd
+shot.png
+shot_street.png
+shot*.png.import
+
+# MinGW renames a locked DLL out of the way on relink
+bin/~*
